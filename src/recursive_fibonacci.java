@@ -12,6 +12,10 @@ public class recursive_fibonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println(fib(6));
+ int n;
+        System.out.print("finobacci kacıncı değeri getirilsin :");
+        Scanner input=new Scanner(System.in);
+        n=input.nextInt();
+        System.out.println(fib(n));
     }
 }
